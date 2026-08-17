@@ -1,0 +1,131 @@
+\documentclass[10.5pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{banking}
+\moderncvcolor{grey}
+
+\usepackage[scale=0.78, top=0.55in, bottom=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{needspace}
+
+\setlist[itemize]{leftmargin=*, itemsep=1pt, topsep=1pt, parsep=0pt}
+\setlength{\maincolumnwidth}{12.5cm}
+
+\name{DINESHKUMAR}{K}
+\title{Senior Consultant}
+
+\phone[mobile]{+91-9585885884}
+\email{dineshksp16@gmail.com}
+\address{P33, Indira Nagar, Kasipalayam}{Erode-638454, India}
+\social[linkedin]{linkedin.com/in/dineszk}
+
+\begin{document}
+
+\makecvtitle
+\vspace{-1.5em}
+
+\section{Objective}
+Network Engineering professional with 11+ years of overall experience, including 9 years in networking, specializing in enterprise network implementation, migration and operations. Strong hands-on experience with Cisco, Aruba and Juniper, including Cisco Catalyst Center (DNAC), Juniper Mist, SD-WAN, wireless and Python-based network automation. Experienced in API integrations, monitoring, security compliance and multi-vendor AIOps.
+
+\section{Work History}
+
+\cventry{Jun 2022 -- Present}{Senior Consultant}{Capgemini Technology Services}{Coimbatore, India}{Project -- GIT}
+{
+\begin{itemize}
+    \item Designed, implemented and maintained enterprise network infrastructure covering Routing, Switching, Wireless, LAN, SDA and SD-WAN across Cisco, Aruba, Juniper and Arista environments.
+    \item Managed network implementation lifecycle including HLD/LLD creation, network topology documentation, installation, configuration, testing, upgrades and operational handover.
+    \item Led implementation of the first Juniper Mist site using Juniper switches and APs.
+    \item Worked on Cisco network migration for a newly acquired/procured entity and supported integration into the enterprise network.
+        \item Worked on EOL/EOS network hardware replacement activities across the enterprise.
+    \item Created BOMs for new network projects based on technical requirements and approved budgets.
+    \item Developed Python scripts for Cisco switch configuration updates.
+    \item Integrated Cisco Catalyst Center (DNAC) APIs with Power BI for inventory synchronization and consolidated non-DNAC compliance reporting.
+    \item Worked on multi-vendor API integrations and automation across RSA ILM, Splunk, ScienceLogic, Cisco Catalyst Center, Juniper Mist, Aruba Central and Arista CloudVision for security compliance, monitoring, reporting and AIOps use cases.
+    \item Currently working on Fabrix AIOps integration with Cisco Catalyst Center, Aruba Central, Juniper Mist and Arista CloudVision.
+    \item Managed DNAC security certificate renewal/replacement and created DNAC SOPs for the operations team.
+\end{itemize}
+}
+
+\cventry{Jan 2020 -- Jun 2022}{Systems Engineer}{Tata Consultancy Services}{Chennai, India}{Project -- H\&M}
+{
+\begin{itemize}
+    \item Led the migration of Aruba Networks from Cisco across 100+ sites, ensuring seamless business continuity.
+    \item Monitored and troubleshot Cisco and Aruba routers, switches, and Wi-Fi clients, along with diverse network equipment.
+    \item Created and managed Aruba Central Templates and Template Groups for Gateways and Access Points, enabling standardized SD-LAN deployments.
+    \item Executed PoC, pilot, and rollout migration activities by configuring Aruba SD-LAN devices including switches, gateways, and access points, and coordinated with clients for endpoint testing.
+    \item Provided implementation support for deploying access points in offices and retail stores, utilizing Ekahau radio planning to optimize wireless coverage and performance.
+    \item Resolved technical issues during project implementations.
+    \item Performed network device upgrades, restorations, and backups.
+    \item Managed IP Address Management (IPAM) and subnetting using Infoblox for IP reservation and allocation.
+    \item Utilized network management tools such as IMC, Cisco DNAC, Meraki, and Aruba Central.
+    \item Hands-on experience with Meraki MX Security Appliances and Access Points.
+    \item Documented network details and reported health status.
+    \item Integrated devices with HPE ClearPass authentication.
+    \item Successfully deployed and configured Beronet systems for 30+ CUCM sites.
+\end{itemize}
+}
+
+\cventry{Jul 2018 -- Oct 2020}{Network Engineer}{Team Computers Private Ltd}{Bangalore, India}{Project -- Wipro Enterprises}
+{
+\begin{itemize}
+    \item Provided remote support for network issues and installations.
+    \item Improved network performance through monitoring and troubleshooting.
+    \item Configured, managed, and maintained Cisco Catalyst 2000, 3000, 4000, and 6000 series switches, along with Cisco ASR routers, to support enterprise network operations.
+    \item Investigated data network faults.
+    \item Implemented security policies and monitored access.
+    \item Managed IPS/IDS alerts using FireEye NX device.
+    \item Created and troubleshot Cisco VPNs on Cisco ASA.
+    \item Followed ITIL processes and managed incidents, change requests, and tasks using BMC Remedy.
+    \item Tracked and documented network issues; compiled incident reports in the system.
+\end{itemize}
+}
+
+\cventry{Nov 2017 -- Jun 2018}{System Engineer}{Precision Techserve Private Ltd}{Kochi, India}{Project -- CTS \& TVS Credit}
+{
+\begin{itemize}
+    \item Provided technical support and troubleshooting for network and system issues.
+    \item Delivered L1 support for end-users and client networks.
+    \item Handled hardware installation, replacement, and management during client onboarding and project movements.
+    \item Created and maintained comprehensive technical documentation to facilitate employee training and ensure accessible reference for ongoing operations.
+    \item Performed network device decommissioning activities and repurposed hardware to meet evolving project and business requirements, ensuring optimal resource utilization and reduced costs.
+\end{itemize}
+}
+
+\needspace{10\baselineskip}
+\section{Skills}
+\cvitem{Routing}{BGP, OSPF, EIGRP, IS-IS (Basics), MPLS (Basics)}
+\cvitem{Switching}{VLAN, STP, LACP, PAGP, VTP, HSRP, VRRP, GLBP, VSS}
+\cvitem{Wireless}{Aruba, Juniper Mist, Arista -- enterprise wireless AP deployment \& management}
+\cvitem{ACL}{Standard, Extended}
+\cvitem{DDI}{InfoBlox (DNS/DHCP/IPAM)}
+\cvitem{SD-WAN}{Aruba Central, Cisco Meraki, Versa, Viptela}
+\cvitem{SDA}{Cisco Catalyst Center (DNAC), Juniper Mist, Arista CloudVision}
+\cvitem{AAA/NAC}{ClearPass, ISE (Basics)}
+\cvitem{Monitoring Tools}{HP IMC, ScienceLogic, Cisco Prime, SolarWinds}
+\cvitem{Ticketing Tools}{ServiceNow, BMC Remedy, Oracle ITSM}
+\cvitem{Automation}{Python, Ansible, YAML, Jinja2, Nautobot (Learning)}
+\cvitem{
+\cvitem{Version Control}{GitHub}
+
+\needspace{5\baselineskip}
+\section{Education}
+\cventry{2012 -- 2015}{Master of Computer Applications}{Anna University}{}{}{}
+\cventry{2009 -- 2012}{Bachelor of Science in Information Technology}{Bharathiar University}{}{}{}
+
+\needspace{6\baselineskip}
+\section{Professional Training}
+\cvlistitem{CCNA}
+\cvlistitem{Aruba Central}
+\cvlistitem{Network Automation}
+\cvlistitem{AWS}
+\cvlistitem{ITIL V4}
+
+\needspace{6\baselineskip}
+\section{Declaration}
+I hereby declare that the above-written particulars are true to the best of my knowledge and belief.
+
+\vspace{1.5em}
+\noindent
+\textbf{Place:} \hspace{4cm} \hfill \textbf{(K. DINESHKUMAR)} \\[0.5em]
+\textbf{Date:}
+
+\end{document}
